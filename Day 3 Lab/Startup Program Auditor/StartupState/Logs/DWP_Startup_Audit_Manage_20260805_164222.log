@@ -1,0 +1,18 @@
+[2026-08-05 16:42:22] [INFO] Script started. Mode: Disable
+[2026-08-05 16:42:27] [INFO] Disable mode selected. Program filter: Teams
+[2026-08-05 16:42:27] [WARN] No startup entry matched Program Name filter: Teams
+[2026-08-05 16:42:27] [INFO] Report generated: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Reports\Startup_Report_20260805_164222.csv
+Mode: Disable
+DryRun: True
+StartupEntries: 6
+EnabledEntries: 6
+DisabledEntries: 0
+ModifiedEntries: 0
+Warnings: 1
+Errors: 0
+BackupFile: 
+ReportPath: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Reports\Startup_Report_20260805_164222.csv
+LogFile: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Logs\DWP_Startup_Audit_Manage_20260805_164222.log
+StartTime: 8/5/2026 4:42:22 PM
+EndTime: 8/5/2026 4:42:27 PM
+DurationSeconds: 4.63

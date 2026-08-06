@@ -1,0 +1,1 @@
+T-1007: Resolved. Cause: OneDrive sync state stuck after migration with incomplete local sync scope. Action: Reset sync client, re-linked account, resumed full sync and verified missing files restored locally. User confirmed files available.

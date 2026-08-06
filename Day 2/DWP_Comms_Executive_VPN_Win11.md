@@ -1,0 +1,2 @@
+Executive:
+Your access and data are safe, and there was no data loss. After a Windows 11 upgrade, the old VPN app was removed, but Intune did not automatically install the new app because of a detection-rule gap. We removed outdated VPN registry entries at HKLM\SOFTWARE\<vendor>, forced an Intune sync, deployed the new VPN client, applied split-tunnel settings, and confirmed connectivity to all internal subnets. No action is needed from you.

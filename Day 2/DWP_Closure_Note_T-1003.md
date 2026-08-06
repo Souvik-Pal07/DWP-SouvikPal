@@ -1,0 +1,1 @@
+T-1003: Resolved. Cause: AVD session timeout/network instability around idle interval. Action: Updated session settings, reconnected client, validated stable session beyond 10 mins. User confirmed stable connection.

@@ -1,0 +1,1 @@
+T-1008: Resolved. Cause: VPN tunnel connected but internal routing/DNS path not applied after Win11 upgrade. Action: Refreshed VPN profile, renewed network stack, validated internal resource access by name and IP. User confirmed connectivity.

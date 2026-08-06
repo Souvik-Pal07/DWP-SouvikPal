@@ -1,0 +1,2 @@
+Team:
+Hi team - your access and data are safe, and there was no data loss. After the Windows 11 upgrade, the old VPN app was removed and the new app was not reinstalled automatically because a required install check was missing. We removed outdated VPN registry entries at HKLM\SOFTWARE\<vendor>, forced an Intune sync, deployed the new VPN client, applied split-tunnel settings, and confirmed connectivity to all internal subnets. If you see this issue again, please contact the DWP Service Desk.

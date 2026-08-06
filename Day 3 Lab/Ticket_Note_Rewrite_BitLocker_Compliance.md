@@ -1,0 +1,1 @@
+The device was identified as non-compliant due to BitLocker not being enabled. Remediation actions have been completed, and compliance has now been restored.

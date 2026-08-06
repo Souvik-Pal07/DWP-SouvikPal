@@ -1,0 +1,1 @@
+T-1005: Resolved. Cause: Meeting room audio endpoint path failed across shared room setup. Action: Rebound Teams audio devices, reset room audio chain, tested mic and speaker on all three machines. Users confirmed audio working.

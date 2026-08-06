@@ -1,0 +1,1 @@
+T-1006: Resolved. Cause: Post-Win11 upgrade background indexing/update load causing general slowness. Action: Completed pending updates, rebooted, optimized startup load, validated normal performance. User confirmed device speed improved.

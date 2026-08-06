@@ -1,0 +1,17 @@
+[2026-08-05 16:51:16] [INFO] Script started. Mode: Audit
+[2026-08-05 16:51:16] [INFO] Audit mode selected. No modifications will be made.
+[2026-08-05 16:51:17] [INFO] Report generated: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Reports\Startup_Report_20260805_165116.csv
+Mode: Audit
+DryRun: False
+StartupEntries: 6
+EnabledEntries: 6
+DisabledEntries: 0
+ModifiedEntries: 0
+Warnings: 0
+Errors: 0
+BackupFile: 
+ReportPath: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Reports\Startup_Report_20260805_165116.csv
+LogFile: C:\Users\labuser\Documents\Training\Day 3 Lab\StartupState\Logs\DWP_Startup_Audit_Manage_20260805_165116.log
+StartTime: 8/5/2026 4:51:16 PM
+EndTime: 8/5/2026 4:51:17 PM
+DurationSeconds: 1
