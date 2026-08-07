@@ -1,3 +1,26 @@
+# Prompt
+---
+you are a PowerShell Developer(version 5.1). write a PowerShell script for a DWP engineer to report disk health and optimization status and the script should be safe to use on windows endpoint with following requirement
+
+1. The script must be strictly read-only and must never run defragmentation, TRIM operations, disk repair, CHKDSK fixes, optimization actions, or make configuration changes.
+2. Report Drive Letter, Volume Label, File System, Total Capacity, Used Space, Free Space, and Free Space Percentage.
+3. Report Physical Disk information including Model, Media Type (SSD/HDD), Serial Number (if available), Operational Status, and Health Status.
+4. Report disk optimization status using native Windows reporting mechanisms.
+5. Report the last optimization or maintenance date if available.
+6. Highlight disks with low free space, warning health status, or unknown health status.
+7. Use only read-only PowerShell commands and WMI/CIM queries.
+8. Use try/catch error handling for every disk and health query.
+9. Continue execution even if information for one disk cannot be retrieved.
+10. Log every action, warning, and error to a date and timestamped log file.
+11. Generate reports in Console, CSV, and HTML format.
+12. Report a summary at the end showing total disks detected, healthy disks, warning disks, critical disks, and the lowest free space percentage.
+13. Add comments to every section explaining what it does.
+14. Ensure the script execution is idempotent.
+15. Clearly document within the script and README that the script is strictly read-only and performs no remediation activities.
+16. Create a readme file explaining the collected metrics, report formats, limitations, and available script parameters.
+
+Create the script under Day 3 Lab folder inside Disk Health Reporter folder
+
 # DWP Disk Health Reporter (PowerShell 5.1)
 
 This folder contains a strictly read-only disk health and optimization status reporting script for Windows endpoints.
