@@ -1,3 +1,24 @@
+# Prompt
+---
+you are a PowerShell Developer(version 5.1). write a PowerShell script for a DWP engineer to audit and manage Windows startup programs and the script should be safe to use on windows endpoint with following requirement
+
+The script should enumerate all startup programs from Startup folders (Current User and All Users), Registry Run keys (HKCU and HKLM), and Scheduled Tasks configured to run at user logon.
+Generate a report containing Program Name, Startup Location, Executable Path, Publisher (if available), and Status (Enabled/Disabled).
+The script should have a disable option that accepts a Program Name as input and disables the matching startup entry.
+The script should have a dry run option, when executed with dry run flag it should print the startup entries that would be disabled without making any changes.
+Validate that the startup entry exists before performing any action.
+Create a backup of all startup entries before making any modification.
+Implement a rollback functionality to restore disabled startup entries from backup.
+Use try/catch error handling for every modification operation.
+Continue execution even if disabling a startup entry fails.
+Log every action, warning, and error to a date and timestamped log file.
+Report a summary at the end showing total startup entries found, enabled entries, disabled entries, and modified entries.
+Add comments to every section explaining what it does.
+Ensure the script execution is idempotent.
+Create a readme file explaining the options in the script, usage examples, and rollback procedure.
+
+Create the script under Day 3 Lab folder.
+
 # DWP Startup Audit and Management Script (PowerShell 5.1)
 
 This folder includes:

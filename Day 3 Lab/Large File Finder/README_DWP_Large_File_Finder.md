@@ -1,3 +1,25 @@
+# Prompt
+---
+you are a PowerShell Developer(version 5.1). write a PowerShell script for a DWP engineer to identify and report large files on Windows endpoints and the script should be safe to use on windows endpoint with following requirement
+
+The script must be strictly read-only and should never delete, move, modify, rename, compress, or archive files.
+The script should accept a file size threshold parameter with a default value of 100 MB.
+The script should accept an input path parameter to scan a specific drive, folder, or the entire system.
+Recursively scan all accessible folders beneath the target path.
+Exclude protected system folders by default unless explicitly included through a parameter.
+Report File Name, Full Path, File Size (MB and GB), Date Created, Last Modified Date, and File Owner (if available).
+Sort the results from largest file to smallest file.
+Display progress while the scan is running.
+Handle access denied or inaccessible folders gracefully and continue execution.
+Use try/catch error handling for every filesystem operation.
+Log every action, warning, skipped folder, and error to a date and timestamped log file.
+Export the report to CSV, TXT, and HTML formats.
+Report a summary at the end showing total files scanned, total large files found, total storage consumed by matching files, and inaccessible folder count.
+Add comments to every section explaining what it does.
+Ensure the script execution is idempotent and strictly read-only.
+Create a readme file explaining the options in the script, report formats, usage examples, and limitations.
+Create the script under Day 3 Lab folder inside Large File Finder
+
 # DWP Large File Finder (PowerShell 5.1)
 
 This folder contains a strictly read-only script for identifying large files on Windows endpoints.

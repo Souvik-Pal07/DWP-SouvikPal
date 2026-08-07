@@ -1,3 +1,54 @@
+# Prompt
+---
+You are a DWP analyst, reviewing an application crash incident. Below are Application Event Viewer log entries captured during a period when Microsoft Outlook repeatedly crashed. For each Event ID explain what it records. Then reconstruct the sequence of events in plain English, and give the most likely cause of the crash with evidence from the events. Finally create a detailed RCA document with 5 why analysis and store it under Day 3 Lab folder.
+
+Log Name: Application
+Source: Application Error
+Event ID: 1000
+Level: Error
+Date: 2024-03-15 09:14:22
+
+Faulting application name: OUTLOOK.EXE, version: 16.0.17126.20132
+Faulting module name: KERNELBASE.dll, version: 10.0.22621.3155
+Exception code: 0xc0000005
+Fault offset: 0x000000000003a4b2
+Faulting process ID: 0x1f4c
+Faulting application start time: 2024-03-15 09:13:44
+Faulting application path: C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report ID: a3c2f1d4-89bb-4e21-91d7-f2c3a1b09e44
+
+Log Name: Application
+Source: Application Error
+Event ID: 1000
+Level: Error
+Date: 2024-03-15 09:17:45
+
+Faulting application name: OUTLOOK.EXE, version: 16.0.17126.20132
+Faulting module name: KERNELBASE.dll, version: 10.0.22621.3155
+Exception code: 0xc0000005
+Fault offset: 0x000000000003a4b2
+
+Log Name: Application
+Source: Windows Error Reporting
+Event ID: 1001
+Level: Information
+Date: 2024-03-15 09:18:01
+Description: Fault bucket 1847362910, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Log Name: Application
+Source: .NET Runtime
+Event ID: 1026
+Level: Error
+Date: 2024-03-15 09:18:05
+Description: Application: OUTLOOK.EXE
+Framework Version: v4.0.30319
+Description: The process was terminated due to an unhandled exception.
+Exception Info: System.AccessViolationException
+
 # Root Cause Analysis — Microsoft Outlook Repeated Crash
 **Incident Date:** 2024-03-15  
 **Analyst:** DWP Analyst  

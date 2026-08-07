@@ -1,3 +1,46 @@
+# Prompt 
+---
+You are a DWP analyst, reviewing a service crash incident. Below are System Event Viewer log entries captured during a period when the Print Spooler service repeatedly stopped and failed to recover. For each Event ID explain what it records. Then reconstruct the sequence of events in plain English, and give the most likely cause of the service crash loop with evidence from the events. Finally create a detailed RCA document with 5 why analysis and store it under Day 3 Lab folder.
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7034 Level: Error Date: 2024-03-15 10:01:14
+Description: The Print Spooler service terminated unexpectedly.
+It has done this 1 time(s).
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7034 Level: Error Date: 2024-03-15 10:01:45
+Description: The Print Spooler service terminated unexpectedly.
+It has done this 2 time(s).
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7034 Level: Error Date: 2024-03-15 10:02:16
+Description: The Print Spooler service terminated unexpectedly.
+It has done this 3 time(s).
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7031 Level: Error Date: 2024-03-15 10:02:47
+Description: The Print Spooler service terminated unexpectedly.
+It has done this 4 time(s). The following corrective action will
+be taken in 60000 milliseconds: Restart the service.
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7023 Level: Error Date: 2024-03-15 10:03:49
+Description: The Print Spooler service terminated with the
+following error: The specified module could not be found.
+
+Log Name: System
+Source: Service Control Manager
+Event ID: 7038 Level: Error Date: 2024-03-15 10:03:50
+Description: The Print Spooler service was unable to log on as
+NT AUTHORITY\SYSTEM with the currently configured password due
+to the following error: Logon failure: the user has not been
+granted the requested logon type at this computer.
+
 # Root Cause Analysis — Print Spooler Service Crash Loop
 **Incident Date:** 2024-03-15  
 **Analyst:** DWP Analyst  
